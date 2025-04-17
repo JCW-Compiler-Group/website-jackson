@@ -28,7 +28,7 @@ publications:
       - Sam Ainsworth
       - Michael F.P. O'Boyle
     links:
-      PDF: https://jacksonwoodruff.com/pdfs/woodruff_aspdac_24.pdf
+      PDF: https://jacksonwoodruff.com/static/pdfs/woodruff_aspdac_24.pdf
       Code: https://github.com/j-c-w/APsim
   - name: "SLaDe: A Portable Small Language Model Decompiler for Optimized Assembler"
     venue: CGO
