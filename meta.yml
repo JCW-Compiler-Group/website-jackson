@@ -1,0 +1,199 @@
+members:
+  - name: Anton Lydike
+    topic: Making accelerators more flexible
+    photo: static/members/anton.jpg
+    links:
+      - website: https://antonlydike.de
+      - github: https://github.com/AntonLydike
+  - name: Eymen Ünay
+    topic: Making accelerators more performant
+    photo: static/members/eymen.jpg
+publications:
+  - name: "Forklift: An Extensible Neural Lifter"
+    venue: COLM
+    year: 2024
+    authors: 
+      - Jordi Armengol-Estapé
+      - Rodrigo R.O. Rocha
+      - Jackson Woodruff
+      - Psquale Minervini
+      - Michael F.P. O'Boyle
+    links:
+      PDF: https://arxiv.org/pdf/2404.16041
+  - name: "Secco: Codesign for Resource Sharing in Regular Expression Accelerators"
+    venue: ASP-DAC
+    year: 2024
+    authors:
+      - Jackson Woodruff
+      - Sam Ainsworth
+      - Michael F.P. O'Boyle
+    links:
+      PDF: https://jacksonwoodruff.com/pdfs/woodruff_aspdac_24.pdf
+      Code: https://github.com/j-c-w/APsim
+  - name: "SLaDe: A Portable Small Language Model Decompiler for Optimized Assembler"
+    venue: CGO
+    year: 2024
+    authors:
+      - Jordi Armengol-Estapé
+      - Jackson Woodruff
+      - Chris Cummins
+      - Michael F.P. O'Boyle
+    links:
+      Paper: https://arxiv.org/pdf/2305.12520.pdf
+  - name: "Rewriting History: Repurposing Domain-Specific CGRAs"
+    venue: arXiv
+    year: 2023
+    authors:
+      - Jackson Woodruff
+      - Thomas Koehler
+      - Alexander Brauckmann
+      - Chris Cummins
+      - Sam Ainsworth
+      - Michael F.P. O'Boyle
+    links:
+      PDF: https://arxiv.org/pdf/2309.09112.pdf
+      Code: https://github.com/j-c-w/CGRA-Mapper
+  - name: "Acceleration for the many, not the few"
+    venue: PhD Thesis, University of Edinburgh
+    year: 2024
+    authors:
+      - Jackson Woodruff
+    links:
+        PDF: https://jacksonwoodruff.com/pdfs/AFTMNTF.pdf
+  - name: "C2TACO: Lifting Tensor Code to TACO"
+    venue: GPCE
+    year: 2023
+    authors:
+      - José Wesley de Souza Magalhães
+      - Jackson Woodruff
+      - Elizabeth Polgreen
+      - Michael F.P. O'Boyle
+    links:
+      Paper: https://josewesley.com/archive/c2taco.pdf
+      Code: https://github.com/JWesleySM/c2taco
+    awards:
+      - GPCE Best Paper Award
+  - name: When does saving power save the planet?
+    venue: HotCarbon
+    year: 2023
+    authors:
+      - Jackson Woodruff
+      - David Schall
+      - Michael F.P. O'Boyle
+      - Christopher Woodruff
+    links:
+      Paper: https://jacksonwoodruff.com/pdfs/hotcarbon23.pdf
+  - name: Designing CGRAs with Deep Reinforcement Learning
+    venue: DoSSA
+    year: 2023
+    authors:
+      - Jackson Woodruff
+      - Chris Cummins
+    links:
+      Paper: https://jacksonwoodruff.com/pdfs/dossa23.pdf
+      Code: https://github.com/j-c-w/RL_streaming_engine
+  - name: Matching linear algebra and tensor code to specialized hardware accelerators
+    venue: CC
+    year: 2023
+    authors:
+      - Pablo Antonio Martínez
+      - Jackson Woodruff
+      - Jordi Armengol-Estapé
+      - Gregorio Bernabé
+      - José Manuel García
+      - Michael F.P. O'Boyle
+    links:
+      Preprint: https://arxiv.org/abs/2301.11659
+  - name: "Bind the Gap: Compiling Real Software to Hardware FFT Accelerators"
+    venue: PLDI
+    year: 2022
+    authors:
+      - Jackson Woodruff
+      - Jordi Armengol-Estapé
+      - Sam Ainsworth
+      - Michael F.P. O'Boyle
+    links:
+      Preprint: https://jacksonwoodruff.com/pdfs/pldi2022.pdf
+      Code: https://github.com/FourierACceleratorCompiler/FACC
+      Talk: https://www.youtube.com/watch?v=yIOOX4whEd8&list=PLyrlk8Xaylp4aGsN5wVcECG736A2JeMon&index=10&ab_channel=ACMSIGPLAN
+  - name: "ExeBench: an ML-scale dataset of executable C functions"
+    venue: MAPS@PLDI
+    year: 2022
+    authors:
+      - Jordi Armengol-Estapé
+      - Jackson Woodruff
+      - Alexander Brauckmann
+      - José Wesley de Souza Magalhães
+      - Michael F.P. O'Boyle
+    links:
+      Paper: https://dl.acm.org/doi/abs/10.1145/3520312.3534867
+  - name: "NRG: A Network Perspective on Applications' Performance"
+    venue: TMA
+    year: 2021
+    authors:
+      - Noa Zilberman
+      - Andrew W Moore
+      - Billy Cooper
+      - Jackson Woodruff
+      - Yuta Tokusashi
+      - Pietro Bressana
+      - Murali Ramanujam
+      - Salvator Galea
+    links:
+      PDF: https://eng.ox.ac.uk/media/9964/zilberman21nrg.pdf
+  - name: New Regular Expressions on Old Accelerators
+    venue: 58th Design Automation Conference
+    year: 2021
+    authors:
+      - Jackson Woodruff
+      - Michael F.P. O'Boyle
+    links:
+      Preprint: https://jacksonwoodruff.com/pdfs/DAC_2021_Paper.pdf
+      Code: https://github.com/j-c-w/RXPSC
+  - name: "M3: Semantic API Migrations"
+    venue: ASE
+    year: 2020
+    authors:
+      - Bruce Collie
+      - Philip Ginsbach
+      - Jackson Woodruff
+      - Ajitha Rajan
+      - Michael F.P. O'Boyle
+    links:
+      PDF: https://baltoli.github.io/static/ase.pdf
+  - name: Modeling black-box components with probabilistic synthesis
+    venue: GPCE
+    year: 2020
+    authors:
+      - Bruce Collie
+      - Jackson Woodruff
+      - Michael F.P. O'Boyle
+    links:
+      PDF: https://arxiv.org/abs/2010.04811
+      Code: https://github.com/mob-group/synthesis-eval
+    awards:
+      - GPCE Best Paper Award
+  - name: Measuring Burstiness in Data Center Applications
+    venue: Buffers Workshop
+    year: 2019
+    authors:
+      - Jackson Woodruff
+      - Andrew W Moore
+      - Noa Zilberman
+    links:
+      PDF: https://www.cl.cam.ac.uk/~nz247/publications/woodruff2019measuring.pdf
+  - name: "P4DNS: In-Network DNS"
+    venue: EuroP4
+    year: 2019
+    authors:
+      - Jackson Woodruff
+      - Murali Ramanumjam
+      - Noa Zilberman
+    links:
+      PDF: https://jacksonwoodruff.com/pdfs/woodruff2019p4dns.pdf
+      Code: https://github.com/cucl-srg/P4DNS
+      Video: https://www.youtube.com/watch?v=m-dPfx9j9Tw&ab_channel=JacksonWoodruff
+    notes:
+      - Also presented at ICIN 2020 and IETF Meeting 107 to the COIN sub-group
+    awards:
+      - Xilinx Open Hardware Award 2020

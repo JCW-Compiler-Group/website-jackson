@@ -1,0 +1,44 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+# make sure we can upload content to pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+
+      - name: Build Website Content
+        run: |
+          pip install poetry
+          poetry install
+          poetry run python -m build --sub-dir /website-jackson
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload `out` folder, contains static website
+          path: 'out'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
