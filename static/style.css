@@ -106,14 +106,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 8px 0;
-}
-
-.member-list .member-item:nth-child(2n) {
-    text-align: right;
-}
-.member-list .member-item:nth-child(2n) .member-photo {
-    order: 2;
+    margin: 12px 0;
 }
 
 .member-list .member-item .member-photo {
