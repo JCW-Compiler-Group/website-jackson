@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
 
 # make sure we can upload content to pages
 permissions:
