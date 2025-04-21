@@ -12,7 +12,7 @@ def generate_overview():
     for member in members["members"]:
         print(
             f"""<div class="member-item">
-            <div class="member-photo"><img src="{member['photo']}"/></div>
+            <div class="member-photo" style="background-image: url('{member['photo']}')"><img src="{member['photo']}"/></div>
             <div class="member-info">
                 <div class="member-name">{member['name']}</div>
                 <div class="member-topic">{member['topic']}</div>
