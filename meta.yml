@@ -9,6 +9,18 @@ members:
     topic: Making accelerators more performant
     photo: static/members/eymen.jpg
 publications:
+  - name: "Accelerating Sparse Algebra with Program Synthesis"
+    venue: CC
+    year: 2026
+    authors:
+      - José Wesley de Souza Magalhães
+      - Shideh Hashenmian
+      - Alexander Brauckmann
+      - Jackson Woodruff
+      - Elizabeth Polgreen
+      - Michael F.P. O'Boyle
+    links:
+      PDF: https://jacksonwoodruff.com/static/pdfs/cc_26.pdf
   - name: "Forklift: An Extensible Neural Lifter"
     venue: COLM
     year: 2024
