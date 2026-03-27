@@ -9,6 +9,15 @@ members:
     topic: Making accelerators more performant
     photo: static/members/eymen.jpg
 publications:
+  - name: "KeyMemRT Compiler and Runtime: Unlocking Memory-Scalable FHE"
+	venue: arXiv
+	year: 2026
+	authors:
+	  - Eymen Ünay
+	  - Björn Franke
+	  - Jackson Woodruff
+	links:
+	  PDF: https://arxiv.org/pdf/2601.18445
   - name: "Accelerating Sparse Algebra with Program Synthesis"
     venue: CC
     year: 2026
