@@ -8,7 +8,58 @@ members:
   - name: Eymen Ünay
     topic: Making accelerators more performant
     photo: static/members/eymen.jpg
+  - name: Yanwei Ye
+    topic: Hardware/Software Codesign
+    photo: static/members/yanwei.jpg
 publications:
+  - name: "Accelerating Sparse Algebra with Program Synthesis"
+    venue: CC
+    year: 2026
+    authors:
+      - José Wesley de Souza Magalhães
+      - Shideh Hashemian
+      - Alexander Brauckmann
+      - Jackson Woodruff
+      - Elizabeth Polgreen
+      - Michael O'Boyle
+    links:
+        PDF: https://jacksonwoodruff.com/static/pdfs/cc_2026.pdf
+  - name: "The Configuration Wall: Characterization and Elimination of Accelerator Configuration Overhead"
+    venue: ASPLOS
+    year: 2026
+    authors:
+      - Josse Van Delm
+      - Anton Lydike
+      - Joren Dumoulin
+      - Jonas Crols
+      - Xiaoling Yi
+      - Ryan Antonio
+      - Jackson Woodruff
+      - Tobias Grosser
+      - Marian Verhelst
+    links:
+      PDF: https://jacksonwoodruff.com/static/pdfs/asplos_26.pdf
+  - name: "ScaIR: Type-safe Complier Framework Compatible with MLIR"
+    venue: The Scala Workshop
+    year: 2025
+    authors:
+      - Maks Kret
+      - Emilien Bauer
+      - Jackson Woodruff
+      - Amir Shaikhha
+  - name: "Guess, Measure & Edit: Using Lowering to Lift Tensor Code"
+    venue: PACT
+    year: 2025
+    authors:
+      - José Wesley de Souza Magalhães
+      - Jackson Woodruff
+      - Jordi Armengol-Estapé
+      - Alexander Brauckmann
+      - Luc Jaulmes
+      - Elizabeth Polgreen
+      - Michael F.P. O'Boyle
+    links:
+      PDF: https://jacksonwoodruff.com/static/pdfs/pact_25.pdf
   - name: "Forklift: An Extensible Neural Lifter"
     venue: COLM
     year: 2024
@@ -59,7 +110,7 @@ publications:
     authors:
       - Jackson Woodruff
     links:
-        PDF: https://jacksonwoodruff.com/pdfs/AFTMNTF.pdf
+        PDF: https://jacksonwoodruff.com/static/pdfs/AFTMNTF.pdf
   - name: "C2TACO: Lifting Tensor Code to TACO"
     venue: GPCE
     year: 2023
@@ -82,7 +133,7 @@ publications:
       - Michael F.P. O'Boyle
       - Christopher Woodruff
     links:
-      Paper: https://jacksonwoodruff.com/pdfs/hotcarbon23.pdf
+      Paper: https://jacksonwoodruff.com/static/pdfs/hotcarbon23.pdf
   - name: Designing CGRAs with Deep Reinforcement Learning
     venue: DoSSA
     year: 2023
@@ -90,7 +141,7 @@ publications:
       - Jackson Woodruff
       - Chris Cummins
     links:
-      Paper: https://jacksonwoodruff.com/pdfs/dossa23.pdf
+      Paper: https://jacksonwoodruff.com/static/pdfs/dossa23.pdf
       Code: https://github.com/j-c-w/RL_streaming_engine
   - name: Matching linear algebra and tensor code to specialized hardware accelerators
     venue: CC
@@ -113,7 +164,7 @@ publications:
       - Sam Ainsworth
       - Michael F.P. O'Boyle
     links:
-      Preprint: https://jacksonwoodruff.com/pdfs/pldi2022.pdf
+      Preprint: https://jacksonwoodruff.com/static/pdfs/pldi2022.pdf
       Code: https://github.com/FourierACceleratorCompiler/FACC
       Talk: https://www.youtube.com/watch?v=yIOOX4whEd8&list=PLyrlk8Xaylp4aGsN5wVcECG736A2JeMon&index=10&ab_channel=ACMSIGPLAN
   - name: "ExeBench: an ML-scale dataset of executable C functions"
@@ -148,7 +199,7 @@ publications:
       - Jackson Woodruff
       - Michael F.P. O'Boyle
     links:
-      Preprint: https://jacksonwoodruff.com/pdfs/DAC_2021_Paper.pdf
+      Preprint: https://jacksonwoodruff.com/static/pdfs/DAC_2021_Paper.pdf
       Code: https://github.com/j-c-w/RXPSC
   - name: "M3: Semantic API Migrations"
     venue: ASE
@@ -190,7 +241,7 @@ publications:
       - Murali Ramanumjam
       - Noa Zilberman
     links:
-      PDF: https://jacksonwoodruff.com/pdfs/woodruff2019p4dns.pdf
+      PDF: https://jacksonwoodruff.com/static/pdfs/woodruff2019p4dns.pdf
       Code: https://github.com/cucl-srg/P4DNS
       Video: https://www.youtube.com/watch?v=m-dPfx9j9Tw&ab_channel=JacksonWoodruff
     notes:
